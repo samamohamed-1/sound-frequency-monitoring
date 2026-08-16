@@ -78,7 +78,7 @@ The MATLAB interface displays:
 The detected frequency is compared with predefined frequency ranges:
 
 - Low frequency: below 1200 Hz → Yellow LED
-- Normal range: 1200–2300 Hz → Green LED
+- Normal range: 1200 – 2300 Hz → Green LED
 - High frequency: above 2300 Hz → Red LED + Buzzer
 
 The detected frequency is then sent back to the Arduino, which updates the LEDs and buzzer accordingly.
